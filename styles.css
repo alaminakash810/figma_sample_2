@@ -2,6 +2,47 @@
     width:auto;
     height:53px;
     background-color: rgba(203, 205, 169, 1);
-    margin: 0;
-    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    flex-direction: row;
+    align-content:center;
+}
+
+.centered-div {
+    background-color:rgba(255, 255, 233, 1);
+    padding:0;
+    text-align: center;
+    height:55px;
+    width:800px;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:20px 0px;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display:block;
+    padding: 0 15px;
+    text-align: center;
+    color:rgba(0, 0, 0, 1);
+    text-decoration: none;
+    transition: font-size .0001s;
+}
+
+.active {
+    font-weight: bold;
+    font-size:120%;
+}
+li a:hover:not(.active) {
+    font-size:120%;
 }
