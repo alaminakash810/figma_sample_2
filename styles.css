@@ -9,6 +9,7 @@
     justify-content: center;  /* Centers horizontally */
     flex-direction: row;
     align-content:center;
+
 }
 
 .centered-div {
@@ -17,7 +18,12 @@
     text-align: center;
     height:55px;
     width:800px;
-    margin-bottom:10px;
+    margin-bottom:10px;    
+}
+.sticky {
+    top:0;
+    position:sticky;
+    position: -webkit-sticky;
 }
 
 ul {
@@ -85,18 +91,88 @@ li a:hover:not(.active) {
     height: 40px;
     border-radius: 10px;
     background-color: rgba(243, 242, 91, 1);
-    border-color:none;
+    border:none;
     margin-top:8px;
+    cursor:pointer;
 }
 
 .img-container {
     height:auto;
-    margin:50px 20px;
+    max-width:1500px;
+    margin:80px 150px 60px 180px;
+
 }
 
-.img-container > h1 {
+ .headone {
     text-align:center;
     font-size:45px;
     color:black;
-    margin:60px 80px;
+    margin-bottom:110px;
+}
+
+
+.img1 {
+    height:400px;
+    width:415px;
+    float:right;
+}
+.img2 {
+    height:400px;
+    width:415px;
+    float:left;
+}
+.img3 {
+    height:400px;
+    width:415px;
+    float:right;
+}
+.imghead {
+    padding-top:30px;
+    font-size:36px;
+    color:black;
+}
+.custom-hr {
+    background-color: rgba(243, 242, 91, 1);
+    width: 309px;             /* Set the length of the line (e.g., 50% of the container width) */
+    border: none;           /* Remove the default border */
+    height: 4px;
+    margin-left:0;            /* Set the thickness of the line */
+    margin-bottom:25px;
+}
+.custom-hr-right {
+    background-color: rgba(243, 242, 91, 1);
+    width: 309px;             /* Set the length of the line (e.g., 50% of the container width) */
+    border: none;           /* Remove the default border */
+    height: 4px;
+    margin-right:0;            /* Set the thickness of the line */
+    margin-bottom:25px;
+}
+
+.right-align {
+    direction: rtl;
+}
+.imgtxt {
+    color:rgba(132, 131, 131, 1);
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.img-btn {
+    color:black;
+    background-color:rgba(243, 242, 91, 1);
+    width:242px;
+    height:53px;
+    border:none;
+    border-radius:12px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 1);
+    font-size:16px;
+    text-align: center;
+    cursor:pointer;
+    border-color:none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
