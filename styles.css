@@ -20,7 +20,7 @@
     width:800px;
     margin-bottom:10px;    
 }
-.sticky {
+.stick {
     top:0;
     position:sticky;
     position: -webkit-sticky;
@@ -176,3 +176,5 @@ li a:hover:not(.active) {
     clear: both;
     display: table;
 }
+
+.grid
