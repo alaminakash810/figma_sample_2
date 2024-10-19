@@ -263,4 +263,13 @@ li a:hover:not(.active) {
     margin-top:130px;
     text-align:center;
     font-size:45px;
+    padding:0;
+    line-height: 10px;
+}
+.work > hr {
+    max-width:309px;
+    height:3px;
+    background-color: rgba(243, 242, 91, 1);
+    border:none;
+    margin-bottom:40px;
 }
