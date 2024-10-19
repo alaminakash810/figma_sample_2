@@ -253,6 +253,14 @@ li a:hover:not(.active) {
     background-repeat: no-repeat;
     background-position: 95% 10%;
     z-index: 1;
+}
 
-
+.work {
+    max-width:auto;
+    max-width:auto;
+}
+.work > h1 {
+    margin-top:130px;
+    text-align:center;
+    font-size:45px;
 }
