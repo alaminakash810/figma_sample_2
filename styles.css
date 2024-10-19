@@ -220,4 +220,12 @@ li a:hover:not(.active) {
     justify-content:space-between;
     gap:10px;
     background-color: blueviolet;
+    padding-top:2px;
+}
+.review-card {
+    max-height:300px;
+    max-width:500px;
+    background-color:rgba(255, 255, 233, 1);
+    border: 1px solid rgba(239, 239, 239, 1);
+    border-radius:24px;
 }
