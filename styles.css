@@ -311,18 +311,44 @@ li a:hover:not(.active) {
 }
 
 .contact-header {
-    max-width: 660px;
-    max-height:210px;
     text-align:center;
-    margin:0 auto;
-    padding:18px 0px;
+    padding:18px 0px 15px 0px;
+    margin:40px 0px;
 }
 .contact-header > h1 {
     font-size:96px;
-    line-height:20px;
+    line-height:120px;
     color:black;
+    max-width: 660px;
+    max-height:auto;
+    margin:0 auto;
+
 }
 .contact-header > p {
     font-size:24px;
     color:black;
+    padding-bottom:40px;
+    max-width:570px;
+    margin:0 auto;
+}
+
+.form-container {
+    display:flex;
+    height:560px;
+    width:870px;
+    margin:0 auto;
+    padding:0;
+    background-color: gray;
+    border-radius:8px;
+    align-items:center;
+}
+.form-container > div {
+    max-width:50%;
+    margin:10px 40px;
+}
+textarea {
+    height:70px;
+    width:360px;
+    resize:none;
+    overflow:auto;
 }
