@@ -151,10 +151,17 @@ li a:hover:not(.active) {
 .right-align {
     direction: rtl;
 }
-.imgtxt {
+.imgtxt-left {
     color:rgba(132, 131, 131, 1);
     font-size:20px;
     margin-bottom:25px;
+    padding-right:550px;
+}
+.imgtxt-right {
+    color:rgba(132, 131, 131, 1);
+    font-size:20px;
+    margin-bottom:25px;
+    padding-left:550px;
 }
 
 .img-btn {
