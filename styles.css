@@ -393,3 +393,15 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: rgb(238, 238, 24);
 }
+
+
+/* responsive design */
+
+@media screen and (max-width: 980px) and (min-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+}
