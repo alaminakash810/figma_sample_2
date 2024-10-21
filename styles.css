@@ -397,11 +397,23 @@ input[type=submit]:hover {
 
 /* responsive design */
 
-@media screen and (max-width: 980px) and (min-width: 768px) {
+@media screen and (max-width: 968px) and (min-width: 501px) {
+    .hero-text > h1 {
+        font-size: 70px; 
+        line-height:40px;
+    }
 
 }
 
 
-@media screen and (max-width: 767px) {
-
+@media screen and (max-width: 500px) {
+    .hero-text > h1 {
+        font-size: 60px; 
+        line-height:30px;
+    }
+    .hero-text > h3 {
+        font-size: 15px; 
+        line-height: 28.8px; 
+        font-weight:normal;
+    }
 }
