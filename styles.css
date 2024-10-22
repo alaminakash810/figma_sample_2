@@ -17,11 +17,11 @@
     padding:0;
     text-align: center;
     height:55px;
-    width:800px;
+    max-width:800px;
     margin-bottom:10px; 
   
 }
-.stick {
+.centered-div.stick {
     top:0;
     position:sticky;
     position: -webkit-sticky; 
@@ -74,17 +74,20 @@ li a:hover:not(.active) {
     transform: translate(-50%, -50%);
     height:282px;
     width:663px;
+
 }
 
 .hero-text > h1 {
     font-size: 96px; 
-    line-height:50px;
+    line-height:60px;
+    padding:0px 10px;
 }
 
 .hero-text > h3 {
     font-size: 20px; 
     line-height: 28.8px; 
     font-weight:normal;
+    padding:0px 40px;
 }
 
 .btn {
@@ -397,23 +400,26 @@ input[type=submit]:hover {
 
 /* responsive design */
 
-@media screen and (max-width: 968px) and (min-width: 501px) {
-    .hero-text > h1 {
-        font-size: 70px; 
-        line-height:40px;
+@media screen and (max-width: 845px) and (min-width: 536px) {
+    .hero-text {
+        top:35%;
+        left:50%;
+        max-height:100%;
+        max-width:100%;   
     }
-
 }
 
 
-@media screen and (max-width: 500px) {
-    .hero-text > h1 {
-        font-size: 60px; 
-        line-height:30px;
+@media screen and (max-width: 535px) {
+    .hero-text {
+        top:35%;
+        left:50%;
+        max-height:100%;
+        max-width:100%;    
     }
-    .hero-text > h3 {
-        font-size: 10px; 
-        line-height: 28.8px; 
-        font-weight:normal;
+    .hero-text > h1 {
+        font-size: 75px; 
+        line-height:40px;
+        padding:0px 5px;
     }
 }
