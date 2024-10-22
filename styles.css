@@ -17,7 +17,7 @@
     padding:0;
     text-align: center;
     height:55px;
-    max-width:800px;
+    max-width:850px;
     margin-bottom:10px; 
   
 }
@@ -103,7 +103,7 @@ li a:hover:not(.active) {
 .img-container {
     height:auto;
     max-width:1500px;
-    margin:80px 150px 15px 180px;
+    margin:85px 150px 15px :85px;
 
 }
 
@@ -425,17 +425,17 @@ input[type=submit]:hover {
     }
     .img1 {
         height:auto;
-        max-width:35%;
+        max-width:45%;
         float:right;
     }
     .img2 {
         height:auto;
-        max-width:35%;
+        max-width:45%;
         float:left;
     }
     .img3 {
         height:auto;
-        max-width:35%;
+        max-width:45%;
         float:right;
     }
     .imghead {
@@ -456,18 +456,23 @@ input[type=submit]:hover {
         
         font-size:15px;
         margin-bottom:20px;
-        padding-right:180px;
+        padding-right::85px;
     }
     .imgtxt-right {
         font-size:15px;
         margin-bottom:20px;
-        padding-left:180px;
+        padding-left::85px;
     }
     .img-btn {
         width:142px;
         height:33px;
         border-radius:9px;
         font-size:12px;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
     }
 }
 
@@ -489,7 +494,6 @@ input[type=submit]:hover {
         max-width:auto;
         margin:0 auto;
         padding:0;
-        background-color:gray;
     
     }
     .headone {
@@ -500,17 +504,55 @@ input[type=submit]:hover {
     }
     .img1 {
         display:block;
-        margin: 0 auto;
-        padding-bottom:30px;
+        margin:0 auto;
+        padding-bottom:15px;
+        max-width:85%;
+        height:auto;
     }
     .img2 {
+        display:block;
+        margin:0 auto;
+        padding-bottom:15px;
+        max-width:85%;
         height:auto;
-        max-width:35%;
-        float:left;
     }
     .img3 {
+        display:block;
+        margin:0 auto;
+        padding-bottom:15px;
+        max-width:85%;
         height:auto;
-        max-width:35%;
-        float:right;
+    }
+    .imghead {
+        padding-top:20px;
+        font-size:28px;
+        color:black;
+        text-align:center;
+    }
+    .custom-hr {
+        width: 209px;            
+        margin:0 auto;            
+    }
+    .custom-hr-right {
+        width: 209px;            
+        margin:0 auto;
+    }
+    .imgtxt-left {
+        font-size:20px;
+        text-align: center;
+        padding:0 12px;
+    }
+    .imgtxt-right {
+        font-size:20px;
+        text-align: center;
+        padding:0 12px;
+    }
+    .img-btn {
+        display:block;
+        width:142px;
+        height:33px;
+        border-radius:9px;
+        font-size:12px;
+        margin:0 auto;
     }
 }
