@@ -116,7 +116,7 @@ li a:hover:not(.active) {
 
 
 .img1 {
-    height:400px;
+    height:auto;
     width:415px;
     float:right;
 }
@@ -131,9 +131,13 @@ li a:hover:not(.active) {
     float:right;
 }
 .imghead {
-    padding-top:30px;
+    padding-top:45px;
     font-size:36px;
     color:black;
+
+}
+span {
+    display:block;
 }
 .custom-hr {
     background-color: rgba(243, 242, 91, 1);
@@ -410,14 +414,60 @@ input[type=submit]:hover {
     .img-container {
         height:auto;
         max-width:100%;
-        margin:70px 90px 10px 120px;
+        margin:70px 70px 10px 100px;
     
     }
     .headone {
-        font-size:36px;
-        margin:50px 0;
+        font-size:38px;
+        margin:70px 0;
         padding:0;
         text-align:center;
+    }
+    .img1 {
+        height:auto;
+        max-width:35%;
+        float:right;
+    }
+    .img2 {
+        height:auto;
+        max-width:35%;
+        float:left;
+    }
+    .img3 {
+        height:auto;
+        max-width:35%;
+        float:right;
+    }
+    .imghead {
+        padding-top:30px;
+        font-size:20px;
+        color:black;
+        padding-bottom:0;
+    }
+    .custom-hr {
+        width: 200px;                         
+        margin-bottom:1px;
+    }
+    .custom-hr-right {
+        width: 200px;                       
+        margin-bottom:1px;
+    }
+    .imgtxt-left {
+        
+        font-size:15px;
+        margin-bottom:20px;
+        padding-right:180px;
+    }
+    .imgtxt-right {
+        font-size:15px;
+        margin-bottom:20px;
+        padding-left:180px;
+    }
+    .img-btn {
+        width:142px;
+        height:33px;
+        border-radius:9px;
+        font-size:12px;
     }
 }
 
@@ -437,12 +487,12 @@ input[type=submit]:hover {
     .img-container {
         height:auto;
         max-width:100%;
-        margin:50px 40px 10px 70px;
+        margin:40px 40px 10px 60px;
     
     }
     .headone {
         font-size:30px;
-        margin:30px 0;
+        margin:35px 0;
         padding:0;
         text-align:center;
     }
