@@ -103,7 +103,7 @@ li a:hover:not(.active) {
 .img-container {
     height:auto;
     max-width:1500px;
-    margin:85px 150px 15px :85px;
+    margin:85px 150px 15px 85px;
 
 }
 
@@ -456,12 +456,12 @@ input[type=submit]:hover {
         
         font-size:15px;
         margin-bottom:20px;
-        padding-right::85px;
+        padding-right:85px;
     }
     .imgtxt-right {
         font-size:15px;
         margin-bottom:20px;
-        padding-left::85px;
+        padding-left:85px;
     }
     .img-btn {
         width:142px;
@@ -498,7 +498,7 @@ input[type=submit]:hover {
     }
     .headone {
         font-size:35px;
-        margin:38px 10px 70px;
+        margin:38px 5px 70px;
         padding-top:10px;
         text-align:center;
     }
@@ -540,12 +540,14 @@ input[type=submit]:hover {
     .imgtxt-left {
         font-size:20px;
         text-align: center;
-        padding:0 12px;
+        padding:15px;
+        margin:0;
     }
     .imgtxt-right {
         font-size:20px;
         text-align: center;
-        padding:0 12px;
+        padding:15px;
+        margin:0;
     }
     .img-btn {
         display:block;
