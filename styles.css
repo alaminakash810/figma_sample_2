@@ -103,7 +103,7 @@ li a:hover:not(.active) {
 .img-container {
     height:auto;
     max-width:1500px;
-    margin:85px 150px 15px 85px;
+    margin:85px 150px 15px 150px;
 
 }
 
