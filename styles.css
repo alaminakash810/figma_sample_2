@@ -398,6 +398,9 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: rgb(238, 238, 24);
 }
+.arrow-phone {
+    display:none;
+}
 
 
 /* responsive design */
@@ -493,6 +496,9 @@ input[type=submit]:hover {
     }
     .revw-text {
         padding:0px 20px 15px;
+    }
+    .arrow-phone {
+        display:none;
     }
 }
 
@@ -605,5 +611,22 @@ input[type=submit]:hover {
     }
     .revw-text {
         padding:0px 30px 15px;
+    }
+    .arrw-phone {
+        margin: 0 auto;
+        display:block;
+    }
+    .arr {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: rgb(254, 174, 76);
+        border:none;
+        margin-top:5px;
+        cursor:pointer;
+        font-size:20px;
+        color:white;
+        display:inline;
+
     }
 }
