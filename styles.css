@@ -213,7 +213,6 @@ span {
 
 .arrows {
     float:right;
-
 }
 .arrow {
     width: 50px;
@@ -251,7 +250,6 @@ span {
     text-align: center;
     color:rgba(51, 51, 51, 1);
     font-size: 18px;
-
 }
 .cus-img {
     margin-left:auto;
@@ -474,6 +472,28 @@ input[type=submit]:hover {
         clear: both;
         display: table;
     }
+    .review-div-container {
+        max-width:95%;
+        max-height:auto;
+    }
+    .headrev {
+        display:inline-block;
+        margin: 0px 0px 10px 4px;
+    }
+    .grid-container {
+        gap:12px;
+        padding-top:1px;
+        padding-bottom:120px;
+    }
+    .review-card {
+        max-height:auto;
+        max-width:100%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .revw-text {
+        padding:0px 20px 15px;
+    }
 }
 
 
@@ -559,5 +579,9 @@ input[type=submit]:hover {
     }
     .blc {
         display:inline-block;
+    }
+    .review-div-container {
+        max-width:95%;
+        max-height:auto;
     }
 }
