@@ -583,5 +583,9 @@ input[type=submit]:hover {
     .review-div-container {
         max-width:95%;
         max-height:auto;
+        margin:0 auto;
+    }
+    .arrows {
+        display:none;
     }
 }
