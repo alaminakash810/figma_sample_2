@@ -3,12 +3,15 @@
     height:53px;
     background-color: rgba(203, 205, 169, 1);
 }
+html{height:100%;
+    scroll-behavior: smooth;}
 
 .flex-container {
     display: flex;
     justify-content: center;  /* Centers horizontally */
     flex-direction: row;
     align-content:center;
+    height:auto;
 
 }
 
@@ -25,6 +28,7 @@
     top:0;
     position:sticky;
     position: -webkit-sticky; 
+    z-index: 1000;
 }
 
 ul {
