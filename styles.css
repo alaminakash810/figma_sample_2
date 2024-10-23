@@ -250,6 +250,12 @@ span {
     text-align: center;
     color:rgba(51, 51, 51, 1);
     font-size: 18px;
+    transition: max-height 1s, max-width 1s, font-size .3s;
+}
+.review-card:hover {
+    max-width:800px;
+    max-height:450px;
+    font-size:22px;
 }
 .cus-img {
     margin-left:auto;
